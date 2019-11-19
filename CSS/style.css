@@ -1,0 +1,78 @@
+body{
+    background-color: teal;
+    height: 100%;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border: solid 5px darkgreen;
+}
+img{
+    height: 160px;
+    border: solid 3px white;
+    padding: 3px;
+    margin: 3px;
+}
+h3{
+    margin-left: 5%;
+}
+div.gato{
+    overflow: auto;
+    background-color: teal;
+    width: 90%;
+    padding-top: 1px;
+    padding-bottom: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+#intro{
+    background-color: darkgreen;
+    border: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5px;
+}
+#algunasrazas{
+    background-color: darkgreen;
+    border: 5px;
+    overflow: auto;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#siames{
+    background-color: grey; 
+    padding-bottom: 2px;
+    margin: 5px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#azulruso{
+    background-color: grey; 
+    padding-bottom: 2px;
+    margin: 5px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#bosquenoruego{
+    background-color: grey; 
+    padding-bottom: 2px;
+    margin: 5px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#moderno{
+    float: left;
+}
+#tradicional{
+    float: right;
+}
+#azulruso{
+    float: left;
+}
+#bosquenoruego{
+    float: right;
+}
