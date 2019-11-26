@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "forever";
+    src: url("../fonts/always_forever.ttf");
+  }
 body{
     background-color: teal;
     height: 100%;
@@ -5,6 +9,7 @@ body{
     margin-left: 15%;
     margin-right: 15%;
     border: solid 5px darkgreen;
+    font-family: arial, Arial, Helvetica, sans-serif;
 }
 img{
     height: 160px;
@@ -12,57 +17,83 @@ img{
     padding: 3px;
     margin: 3px;
 }
+h1{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    letter-spacing: 0.2em;
+    font-family: "forever";
+}
+h2{
+    margin-top: 0.8%;
+    margin-bottom: 0.8%;
+    margin-left: 2%;
+    color: white;
+}
 h3{
     margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 0.5%;
+    color: black;
 }
-div.gato{
-    overflow: auto;
-    background-color: teal;
-    width: 90%;
-    padding-top: 1px;
-    padding-bottom: 5px;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 5%;
-}
-#intro{
+
+.algunasrazas{
     background-color: darkgreen;
     border: 5px;
-    margin-left: 10%;
-    margin-right: 10%;
-    padding: 5px;
-}
-#algunasrazas{
-    background-color: darkgreen;
-    border: 5px;
-    overflow: auto;
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 4%;
+    padding: 1%;
+    padding-bottom: 2%;
+}
+.gato{
+    overflow: auto;
+    background-color: darkgreen;
+    padding: 1%;
+    margin-bottom: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.intro{
+    background-color: teal;
+    border: 5px;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 5px;
 }
 #siames{
-    background-color: grey; 
-    padding-bottom: 2px;
-    margin: 5px;
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
+    background-color: rgb(94, 91, 91); 
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    padding: 0.2%;
+    color: white;
 }
 #azulruso{
-    background-color: grey; 
-    padding-bottom: 2px;
-    margin: 5px;
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
+    background-color: rgb(94, 91, 91); 
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    padding: 0.2%;
+    color: white;
+    margin-bottom: 5%;
+    margin-top: 5%;
 }
 #bosquenoruego{
-    background-color: grey; 
-    padding-bottom: 2px;
-    margin: 5px;
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
+    background-color: rgb(94, 91, 91); 
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    padding: 0.2%;
+    color: white;
+    margin-bottom: 5%;
+    margin-top: 5%;
 }
 #moderno{
     float: left;
@@ -70,9 +101,9 @@ div.gato{
 #tradicional{
     float: right;
 }
-#azulruso{
+#catazulruso{
     float: left;
 }
-#bosquenoruego{
+#catbosquenoruego{
     float: right;
 }
